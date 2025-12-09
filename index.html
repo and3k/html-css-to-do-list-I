@@ -5,27 +5,36 @@
   <title>HTML To Do List</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <meta name="description" content="" />
-  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <section>
+  <section class = "box">
     <br>
-      <h1>My To Do list Today</h1>
-      <p>Today has enough worries</p>
+      <h1>To Do List</h1>
+    <blockquote><p><em> Today has enough worries</em></p></blockquote>
       <br>
-    <h2>High</h2>
-      <ul>
-          <li>Learn HTML</li>
-          <li>Eat</li>
-          <li>Sleep</li>
+      <ul class = "list">
+          <li>CSS and HTML</li>
+          <li>Box</li>
+          <li>Font and size</li>
+          <li>Colors</li>
+          <li>Background img or colors</li>
+          <li>Spacing</li>
+          <li>Colors</li>
+          <li>Cross off the list</li>
       </ul>
-    <h3>Low</h3>
-    <ul>
-        <li>Learn CSS</li>
-        <li>Read</li>
-    </ul>
   </section>
-
-  
 </body>
+<!-- <script>
+  const list = document.querySelectorAll(".list li")
+
+  list.forEach((list) => {
+      list.addEventListener('click', () => {
+        list.classList.toggle('strike');
+      });
+    });
+</script> -->
+
+
 </html>

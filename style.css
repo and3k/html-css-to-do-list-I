@@ -1,0 +1,46 @@
+h1 {
+  font-weight: 200;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 45px;
+  font-variant-caps: small-caps;
+  line-height: 45px;
+  text-decoration: underline;
+  letter-spacing: -2px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+body{
+  background-color: hsl(0, 0%, 56%);
+}
+.box {
+  border-style: solid;
+  border-width: 2px 4px 4px 2px;
+  border-color: gray black black gray;
+  box-shadow: 10px 5px 5px #3024;
+  margin: 70px 25% 70px 30%;
+  padding: 0px 0px 20px 0px;
+  background-color: rgb(187, 187, 187);
+  width: auto;
+}
+.box:hover{
+    box-shadow: 5px 5px 5px #3024;
+
+}
+
+blockquote{
+  text-align: center;
+  font-family: serif;
+  font-weight: 400;
+}
+.list, li{
+  font-family: "Fira Sans", sans-serif;
+  color: #212121;
+  letter-spacing: .3px;
+  font-size: 16px;
+  list-style-position: inside;
+  cursor: pointer;
+}
+.strike {
+  text-decoration: line-through;
+}
+
